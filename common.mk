@@ -334,6 +334,9 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResCommon \
     OPlusTetheringResCommon \
     WifiResTarget
+    
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-bliss
 
 # Partition
 PRODUCT_BUILD_SUPER_PARTITION := false
