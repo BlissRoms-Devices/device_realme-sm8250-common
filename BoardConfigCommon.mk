@@ -129,7 +129,7 @@ BOARD_KERNEL_CMDLINE := \
     service_locator.enable=1 \
     swiotlb=2048
 
-KERNEL_CUSTOM_LLVM := true
+USE_KERNEL_AOSP_LLVM := true
 KERNEL_FULL_LLVM := true
 
 BOARD_KERNEL_IMAGE_NAME := Image
