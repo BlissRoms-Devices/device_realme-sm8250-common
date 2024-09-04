@@ -121,6 +121,10 @@ PRODUCT_COPY_FILES += \
 # Charateristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Crypto
+PRODUCT_PACKAGES += \
+    libcrypto-v33
+
 # Dex/ART optimization
 DONT_DEXPREOPT_PREBUILTS := true
 
